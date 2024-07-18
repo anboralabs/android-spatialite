@@ -19,7 +19,7 @@ android {
     compileSdkVersion 34
 
     defaultConfig {
-        minSdkVersion 21
+        minSdkVersion 23
         targetSdkVersion 34
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles 'proguard-rules.pro'
@@ -39,7 +39,7 @@ android {
     }
     // ndk gradle support is still very bad so it's built with the regular ndk-build
     sourceSets.main.jni.srcDirs = ['src/main/none']
-    ndkVersion = "21.1.6352462"
+    ndkVersion = "23.0.7599858"
 }
 
 dependencies {
@@ -131,7 +131,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.github.dalgarins'
                 artifactId = 'android-spatialite'
-                version = '2.1.2-alpha'
+                version = '2.1.3-alpha-ndk23'
             }
         }
     }

@@ -97,6 +97,10 @@ Min SDK 21
 
 ## CHANGES
 
+### 2.1.3-alpha-ndk23 (minSdkVersion 23)
+- Upgrade minSdkVersion to 23
+- Upgrade targetSdkVersion to 34
+
 ### 2.1.2-alpha (minSdkVersion 21)
 - Upgrade minSdkVersion to 21
 - Upgrade targetSdkVersion to 34
