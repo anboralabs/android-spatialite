@@ -16,7 +16,8 @@ gradle.projectsEvaluated {
 }
 
 android {
-    compileSdkVersion 34
+    compileSdk 34
+    ndkVersion "23.0.7599858"
 
     defaultConfig {
         minSdkVersion 23
@@ -39,7 +40,6 @@ android {
     }
     // ndk gradle support is still very bad so it's built with the regular ndk-build
     sourceSets.main.jni.srcDirs = ['src/main/none']
-    ndkVersion "23.0.7599858"
 }
 
 dependencies {
