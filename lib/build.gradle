@@ -131,7 +131,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.github.dalgarins'
                 artifactId = 'android-spatialite'
-                version = '2.1.3-alpha-ndk23'
+                version = '2.1.2-ndk23-alpha'
             }
         }
     }
