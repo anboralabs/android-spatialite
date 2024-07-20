@@ -15,7 +15,7 @@ gradle.projectsEvaluated {
 android {
     namespace 'org.spatialite'
     compileSdk 34
-    ndkVersion '21.0.6113669'
+    ndkVersion '23.0.7599858'
 
     defaultConfig {
         minSdk 21
